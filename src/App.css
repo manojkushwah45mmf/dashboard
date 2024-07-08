@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+
+.chart_box{
+ padding: 20px;
+ border: 1px solid lightgray;
+ background-color: #000000;
+ border-radius: 25px;
+ border: none;
+
+}
+.main_dashboard{
+ padding: 40px;
+ background-color: #212F3C ; 
+
+}
+.invent_text{
+  color: #ffff;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 0;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.a_cont{
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+}
+
+.product_heading{
+ text-align: center;  
+ padding: 10px;
+ font-size: 30px;
+ border-radius: 35px;
+ background: black;
+ color: #ffff;
+ margin-bottom: 40px;
+ font-weight: 500;
+ 
+}
+
+
+.tl_sale{
+ color: #fff;
+ text-align: center;
+}
+.sales_ch{
+ display: flex;
+}
+.lorem_text{
+  font-size: 14px;
+  color: #fff;
+ line-height: 20px;
+}
+
+.de_table{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+}
+.gl_data{
+font-size: 14px;
+font-weight: 300;
+line-height: 4px;
+background: #212F3C ;
+padding: 8px 8px;
+border-radius: 25px;
+color: blue;
+
+
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
